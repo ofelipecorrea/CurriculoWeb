@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+
+
+.titulo_pijama {
+    text-align: center;
+    margin: 15px;
+    font-family: 'Inter', sans-serif;
+    font-size: 25px;
+}
+
+.Produtos {
+    display: flex;
+    gap: 15px;
+    list-style-type: none;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-family: 'PT Sans', sans-serif;
+}
+
+.logo {
+    width: 250px;
+}
+
+.Menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding: 0 20px;
+}
+
+.menu_items {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-family: 'Inter', sans-serif;
+}
+
+.menu_item {
+    margin-left: 1.5rem;
+}
+
+.texto {
+    text-align: center;
+    width: 400px;
+}
+
+.texto2 {
+    margin-top: 0.7em;
+    margin-bottom: 1em;
+    background-color: #c7c7c7;
+    padding: 25px;
+    border-radius: 15px;
+    font-size: 25px;
+    color: #FFFFFF;
+}
+
+.texto2 :hover {
+    background-color: #FFC0CB;
+    color: #FFFFFF;
+}
+
+.imagem {
+    border-radius: 25px;
+}
+
+.titulo_pijama {
+    font-family: 'Inter', sans-serif;
+}
+
+
+
+
+@media only screen and (max-width: 550px) {
+
+    .container {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .logo {
+        width: 150px;
+    }
+
+    .menu_items {
+        padding-top: 1.5rem;
+        padding-bottom: 1.5rem;
+
+    }
+}
